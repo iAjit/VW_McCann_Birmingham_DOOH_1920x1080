@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl0bc56f72981fc752e947f4b8cbbe4f59"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJla9d572820956f40f3c722d64ed30a3c7"/>
   <meta charset="utf-8">
   <meta name="generator" content="Google Web Designer 16.4.1.0826">
   <meta name="template" content="Banner 3.0.0">
@@ -207,8 +207,8 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.j=a});m("gwd.textfitting.setT
       // DIRECT FONT CHECK (FSAlbert-Bold & FSAlbert-Regular 58px)
       // ========================================================
       function checkFontsLoaded() {
-        const boldFont = '60px "VWHeadBold"';
-        const regularFont = '60px "VWHeadRegular"';
+        const boldFont = '50px "VWHeadBold"';
+        const regularFont = '50px "VWHeadRegular"';
 
         if (!document.fonts) {
           fontsLoaded = true;
@@ -217,7 +217,7 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.j=a});m("gwd.textfitting.setT
         }
 
         if (document.fonts.check(boldFont) && document.fonts.check(regularFont)) {
-          console.log("60px VWHead fonts confirmed loaded directly.");
+          console.log("50px VWHead fonts confirmed loaded directly.");
           fontsLoaded = true;
           checkVioohReady();
           return;
@@ -228,7 +228,7 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.j=a});m("gwd.textfitting.setT
           document.fonts.load(regularFont),
           document.fonts.ready
         ]).then(function() {
-          console.log("60px VWHead fonts loaded and layout ready directly.");
+          console.log("50px VWHead fonts loaded and layout ready directly.");
           fontsLoaded = true;
           checkVioohReady();
         }).catch(function(err) {
@@ -328,7 +328,7 @@ m("gwd.textfitting.setMinFontSizePx",function(a){w.j=a});m("gwd.textfitting.setT
 
         var qs = new URLSearchParams(window.location.search);
         var vioohAssetId = qs.get("viooh_asset_id");
-      //  vioohAssetId = "9000000018";
+        //  vioohAssetId = "9000000018";
         if (typeof frameListData !== 'undefined' && frameListData) {
           var locationData = {};
           for (var i = 0; i < frameListData.length; i++) {
